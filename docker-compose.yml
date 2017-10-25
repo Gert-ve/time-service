@@ -1,0 +1,6 @@
+version: '3'
+services:
+  time-service:
+    image: gert/time
+    ports:
+      - "127.0.0.1:4567:4567"
